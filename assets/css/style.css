@@ -5,19 +5,18 @@ html {
     color: white;
 }
 .title {
-    font-size: 40px;
+    font-size: 64px;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
 }
 .subtitle {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 #subtitle {
     width: 400px;
     margin-left: calc(50% - 200px);
-    border: 1px solid #9E9D9D;
     border-radius: 3px;
 }
 #home-container {
@@ -27,11 +26,12 @@ html {
     margin-top: 20px;
     width: 100%;
     text-align: center;
+    border:  1px solid #9E9D9D;
 }
 .pages div {
-    padding: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
     text-align: center;
     color: white;
     text-align: center;
@@ -47,3 +47,10 @@ a {
 .pages div:hover {
     color: #9E9D9D;
 }
+.section {
+    display: inline-block;
+}
+.text {
+    text-align: left;
+}
+

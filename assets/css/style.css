@@ -1,8 +1,8 @@
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    background-color: #343434;
-    color: white;
+    background-color: #EFEFEF;
+    color: #343434;
 }
 body {
     height: 500%;
@@ -27,11 +27,12 @@ body {
 
 }
 .pages {
-    width: 100%;
+    width: 85%;
     text-align: center;
-    border:  1px solid #EEEEEE;
+    border: 1px solid white;
     border-radius: 3px;
-    background-color: #55CB96;
+    background-color: #EFEFEF;
+    margin: auto;
     margin-top: 20px;
 }
 .pages div {
@@ -44,14 +45,18 @@ body {
     display: inline-block;
 }
 a {
-    color: white;
+    color: #343434;
     text-decoration: none;
 }
 .pages a:hover {
-    color: black;
+    color: #582EA6;
+    cursor: pointer;
+    cursor: hand;
 }
 .pages div:hover {
-    color: black;
+    color: #582EA6;
+    cursor: pointer;
+    cursor: hand;
 }
 .section {
     display: inline-block;
@@ -69,10 +74,17 @@ a {
 
 }
 #content-wrapper {
+    width: 75%;
     
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    color: #343434;
+    margin-top: 32px;
 }
 #navbar-wrapper {
-    background-color: #343434;
+    background-color: #EFEFEF;
+    z-index: 99;
 }
 #navbar-ghost {
 }
@@ -81,9 +93,19 @@ a {
 }
 .section {
     display: inline-block;
+    padding: 32px;
+    font-size: 32px;
+    -webkit-transform: translate(-50%, 0px);        
+    transform: translate(0, calc(-50% - 0px));
 }
+
+div#about-label {}
 .text {
     display: inline-block;
+    line-height: 170%;
+    padding: 20px;
+    padding-left: 32px;
+    width: 75%;
 }
 
 

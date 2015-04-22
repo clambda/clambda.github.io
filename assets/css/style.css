@@ -75,9 +75,7 @@ a {
 }
 #content-wrapper {
     width: 75%;
-    
     margin: auto;
-    background-color: white;
     border-radius: 4px;
     color: #343434;
     margin-top: 32px;
@@ -98,17 +96,44 @@ a {
     -webkit-transform: translate(-50%, 0px);        
     transform: translate(0, calc(-50% - 0px));
 }
-
-div#about-label {}
+.section-wrapper {
+    background-color: white;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+div#work-label {
+    -webkit-transform: translate(0, calc(-50% - 28px));
+    transform: translate(0, calc(-50% - 28px));
+    margin-left: 12px;
+}
+#about-label {
+}
 .text {
     display: inline-block;
     line-height: 170%;
     padding: 20px;
-    padding-left: 32px;
     width: 75%;
+    margin-left: 12px;
+}
+.outerlist {
+    list-style-type: none;
+}
+.text img {
+    padding: 10px;
+}
+#bitbucket {
+    display: inline-block;
+    margin-left: 32px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
 }
 
-
+#github {
+    display: inline-block;
+    margin-left: 32px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
 
 @media (max-width: 960px) {
   .title {

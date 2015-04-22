@@ -5,8 +5,8 @@ html {
     color: #343434;
 }
 body {
-    height: 500%;
     margin: none;
+    height: 200%;
 }
 .title {
     font-size: 64px;
@@ -45,8 +45,11 @@ body {
     display: inline-block;
 }
 a {
-    color: #343434;
+    color: #582EA6;
     text-decoration: none;
+}
+a:hover {
+    color: #2F0B71;
 }
 .pages a:hover {
     color: #582EA6;

@@ -6,7 +6,6 @@ html {
 }
 body {
     margin: none;
-    height: 200%;
 }
 .title {
     font-size: 64px;
@@ -44,12 +43,21 @@ body {
     text-align: center;
     display: inline-block;
 }
-a {
+#resume-link {
+    color: black;
+    text-decoration: none;
+}
+.link {
     color: #582EA6;
     text-decoration: none;
 }
 a:hover {
     color: #2F0B71;
+}
+#resume-link:hover {
+    color: #606060;
+    cursor: pointer;
+    cursor: hand;
 }
 .pages a:hover {
     color: #606060;
@@ -87,6 +95,10 @@ a:hover {
     background-color: #FDFDFD;
     z-index: 99;
 }
+#rnavbar-wrapper {
+    background-color: #FDFDFD;
+    z-index: 99;
+}
 #navbar-ghost {
 }
 .show {
@@ -98,6 +110,9 @@ a:hover {
     font-size: 32px;        
     vertical-align: top;
     margin-top: 48px;
+}
+.blue {
+    background-color: #A7C2FF;
 }
 .section-wrapper {
     background-color: white;
@@ -141,6 +156,15 @@ div#work-label {
 
 #work {
     background-color: #DBE6FF;
+}
+ul {
+    line-height: 1.4;
+}
+iframe {
+    width: 718px;
+    height: 924px;
+    display: block;
+    margin: auto;
 }
 @media (max-width: 960px) {
   .title {

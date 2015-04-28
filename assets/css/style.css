@@ -33,6 +33,7 @@ body {
     background-color: #EAB6FF;
     margin: auto;
     margin-top: 20px;
+    transition: background-color 1s;
 }
 .pages div {
     padding: 10px;
@@ -83,6 +84,9 @@ a:hover {
 }
 .top-margin {
 
+}
+#rtopbar {
+    background-color: #81FFB0;
 }
 #content-wrapper {
     width: 75%;

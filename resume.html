@@ -10,9 +10,10 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="assets/js/jquery.youtubepopup.min.js"></script>
         <script type="text/javascript">
-            $(function () {
-                $("a.youtube").YouTubePopup({ autoplay: 0 });
-            });
+			$(function () {				
+				$.fn.YouTubePopup.defaults.draggable = true;
+				$("img.youtube").YouTubePopup({ idAttribute: 'id' });
+			});
         </script>
         
 

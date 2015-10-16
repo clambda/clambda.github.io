@@ -11,6 +11,10 @@ $(document).ready(function() {
     $ghost.css('height', navbar_margin);
     $ghost.hide();
 
+    $(function () {
+        $("img.youtube").YouTubePopup(options);
+    });
+
     $window.scroll(function() {
         $navbar.toggleClass('sticky', $window.scrollTop() > navbar_top);
         $ghost.toggle($window.scrollTop() > navbar_top);

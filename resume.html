@@ -2,19 +2,19 @@
 <head>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type = "text/javascript" ></script>
 <script src="assets/js/script.js"></script>
 
+<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.youtubepopup.min.js"></script>
+<script type="text/javascript">
+	$(function () {				
+		$.fn.YouTubePopup.defaults.draggable = true;
+		$("img.youtube").YouTubePopup({ idAttribute: 'id' });
+	});
+</script>
 
-        <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css" rel="stylesheet" />
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.youtubepopup.min.js"></script>
-        <script type="text/javascript">
-			$(function () {				
-				$.fn.YouTubePopup.defaults.draggable = true;
-				$("img.youtube").YouTubePopup({ idAttribute: 'id' });
-			});
-        </script>
         
 
 
@@ -34,9 +34,7 @@
     <div id = "resume" class = "section-wrapper">
         <iframe src="https://docs.google.com/file/d/0B1tPCYmOXHKQRFJPeVFZRDE4d2c/preview"></iframe>
     </div>
-    <div>
-    	<img class="youtube" id="QRmkyWVrpKQ" src="http://img.youtube.com/vi/QRmkyWVrpKQ/1.jpg" title="..." style="cursor: pointer;"/>
-    </div>
+    <img class="youtube" id="QRmkyWVrpKQ" src="http://img.youtube.com/vi/QRmkyWVrpKQ/1.jpg" title="..." style="cursor: pointer;"/>
 </div>
 </body>
 </html>

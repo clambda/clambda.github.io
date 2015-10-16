@@ -164,7 +164,7 @@ div#work-label {
 ul {
     line-height: 1.4;
 }
-iframe {
+.resume-frame {
     width: 718px;
     height: 924px;
     display: block;

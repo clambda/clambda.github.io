@@ -9,7 +9,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.youtubepopup.min.js"></script>
 <script type="text/javascript">
-	$(function () {				
+	$(function () {
 		$.fn.YouTubePopup.defaults.draggable = true;
 		$("img.youtube").YouTubePopup({ idAttribute: 'id' });
 	});
@@ -31,10 +31,12 @@
     </div>
 </div>
 <div id = "content-wrapper">
+	<div>
+    	<img class="youtube" id="QRmkyWVrpKQ" src="http://img.youtube.com/vi/QRmkyWVrpKQ/1.jpg" title="..." style="cursor: pointer;"/>
+	</div>
     <div id = "resume" class = "section-wrapper">
-        <iframe src="https://docs.google.com/file/d/0B1tPCYmOXHKQRFJPeVFZRDE4d2c/preview"></iframe>
+        <iframe class = "resume-frame" src="https://docs.google.com/file/d/0B1tPCYmOXHKQRFJPeVFZRDE4d2c/preview"></iframe>
     </div>
-    <img class="youtube" id="QRmkyWVrpKQ" src="http://img.youtube.com/vi/QRmkyWVrpKQ/1.jpg" title="..." style="cursor: pointer;"/>
 </div>
 </body>
 </html>
